@@ -1,3 +1,1 @@
-def fizzbuzz(number)
-  number%15 ==0? "fizzbuzz" : number%3 == 0? "fizz": number%5==0? "buzz": number
-end
+def fizzbuzz(n) n%15==0? "fizzbuzz" : n%3==0? "fizz": n%5==0? "buzz": n end
